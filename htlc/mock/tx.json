@@ -1,0 +1,155 @@
+{
+  "mock_info": {
+    "inputs": [
+      {
+        "input": {
+          "previous_output": {
+            "tx_hash": "0xa98c57135830e1b91345948df6c4b8870828199a786b26f09f7dec4bc27a73da",
+            "index": "0x0"
+          },
+          "since": "0x0"
+        },
+        "output": {
+          "capacity": "0x4b9f96b00",
+          "lock": {
+            "args": "0x77c93b0632b5b6c3ef922c5b7cea208fb0a7c427a13d50e13d3fefad17e0c590c219351b150b900e50a7039f1e448b844110927e5fd9bd30425806cb8ddff1fd970dd9a8",
+            "code_hash": "blake2b:../../duktape/build/load0",
+            "hash_type": "data"
+          },
+          "type": null
+        },
+        "data": "0x"
+      },
+      {
+        "input": {
+          "previous_output": {
+            "tx_hash": "0xa98c57135830e1b91345948df6c4b8870828199a786b26f09f7dec4bc27a73da",
+            "index": "0x1"
+          },
+          "since": "0x0"
+        },
+        "output": {
+          "capacity": "0x4b9f96b00",
+          "lock": {
+            "args": "0x",
+            "code_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash_type": "data"
+          },
+          "type": null
+        },
+        "data": "0x"
+      }
+    ],
+    "cell_deps": [
+      {
+        "cell_dep": {
+          "out_point": {
+            "tx_hash": "0xfcd1b3ddcca92b1e49783769e9bf606112b3f8cf36b96cac05bf44edcf5377e6",
+            "index": "0x0"
+          },
+          "dep_type": "code"
+        },
+        "output": {
+          "capacity": "0x702198d000",
+          "lock": {
+            "args": "0x",
+            "code_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash_type": "data"
+          },
+          "type": null
+        },
+        "data": "file:../build/duktape.js"
+      },
+      {
+        "cell_dep": {
+          "out_point": {
+            "tx_hash": "0xfcd1b3ddcca92b1e49783769e9bf606112b3f8cf36b96cac05bf44edcf5377e6",
+            "index": "0x1"
+          },
+          "dep_type": "code"
+        },
+        "output": {
+          "capacity": "0x702198d000",
+          "lock": {
+            "args": "0x",
+            "code_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash_type": "data"
+          },
+          "type": null
+        },
+        "data": "file:../../duktape/build/load0"
+      }
+    ],
+    "header_deps": [
+      {
+        "compact_target": "0x1a1e4c2f",
+        "hash": "0x51d199c4060f703344eab3c9b8794e6c60195ae9093986c35dba7c3486224409",
+        "number": "0xd8fc4",
+        "parent_hash": "0xc02e01eb57b205c6618c9870667ed90e13adb7e9a7ae00e7a780067a6bfa6a7b",
+        "nonce": "0xca8c7caa8100003400231b4f9d6e0300",
+        "timestamp": "0x17061eab69e",
+        "transactions_root": "0xffb0863f4ae1f3026ba99b2458de2fa69881f7508599e2ff1ee51a54c88b5f88",
+        "proposals_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "uncles_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "version": "0x0",
+        "epoch": "0x53f00fa000232",
+        "dao": "0x4bfe53a5a9bb9a30c88898b9dfe22300a58f2bafed47680000d3b9f5b6630107"
+      }
+    ]
+  },
+  "tx": {
+    "version": "0x0",
+    "cell_deps": [
+      {
+        "out_point": {
+          "tx_hash": "0xfcd1b3ddcca92b1e49783769e9bf606112b3f8cf36b96cac05bf44edcf5377e6",
+          "index": "0x0"
+        },
+        "dep_type": "code"
+      },
+      {
+        "out_point": {
+          "tx_hash": "0xfcd1b3ddcca92b1e49783769e9bf606112b3f8cf36b96cac05bf44edcf5377e6",
+          "index": "0x1"
+        },
+        "dep_type": "code"
+      }
+    ],
+    "header_deps": [
+      "0x51d199c4060f703344eab3c9b8794e6c60195ae9093986c35dba7c3486224409"
+    ],
+    "inputs": [
+      {
+        "previous_output": {
+          "tx_hash": "0xa98c57135830e1b91345948df6c4b8870828199a786b26f09f7dec4bc27a73da",
+          "index": "0x0"
+        },
+        "since": "0x0"
+      },
+      {
+        "previous_output": {
+          "tx_hash": "0xa98c57135830e1b91345948df6c4b8870828199a786b26f09f7dec4bc27a73da",
+          "index": "0x1"
+        },
+        "since": "0x0"
+      }
+    ],
+    "outputs": [
+      {
+        "capacity": "0x0",
+        "lock": {
+          "args": "0x",
+          "code_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "hash_type": "data"
+        },
+        "type": null
+      }
+    ],
+    "witnesses": [
+      "0x210000000c0000001d0000000d0000006920616d20612073656372657400000000"
+    ],
+    "outputs_data": [
+      "0x"
+    ]
+  }
+}

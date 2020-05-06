@@ -1,0 +1,13 @@
+{
+  "language": "javascript",
+  "main": "src/index.js",
+  "output": "",
+  "scripts": {
+    "build": "npm run build"
+  },
+  "debug": {
+    "mock": "",
+    "target": "mock_info.inputs[0].output.lock",
+    "cycles": ""
+  }
+}

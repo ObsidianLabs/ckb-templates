@@ -1,0 +1,8 @@
+{
+  "language": "other",
+  "main": "build.sh",
+  "output": "",
+  "scripts": {
+    "build": "./build.sh"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "namespace": "htlc",
+  "imports": [],
+  "declarations": [
+    {
+      "type": "array",
+      "name": "Uint32",
+      "item": "byte",
+      "item_count": 4
+    },
+    {
+      "type": "array",
+      "name": "Byte32",
+      "item": "byte",
+      "item_count": 32
+    },
+    {
+      "type": "fixvec",
+      "name": "Bytes",
+      "item": "byte"
+    },
+    {
+      "type": "struct",
+      "name": "HtlcArgs",
+      "fields": [
+        {
+          "name": "a",
+          "type": "Byte32"
+        },
+        {
+          "name": "b",
+          "type": "Byte32"
+        },
+        {
+          "name": "hash",
+          "type": "Uint32"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "name": "HtlcWitness",
+      "fields": [
+        {
+          "name": "s",
+          "type": "Bytes"
+        },
+        {
+          "name": "i",
+          "type": "Uint32"
+        }
+      ]
+    }
+  ]
+}

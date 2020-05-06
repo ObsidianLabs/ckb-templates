@@ -1,0 +1,14 @@
+array Uint32 [byte; 4];
+array Byte32 [byte; 32];
+vector Bytes <byte>;
+
+struct HtlcArgs {
+  a: Byte32,
+  b: Byte32,
+  hash: Uint32,
+}
+
+table HtlcWitness {
+  s: Bytes,
+  i: Uint32,
+}

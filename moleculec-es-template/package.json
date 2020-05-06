@@ -1,0 +1,19 @@
+{
+  "name": "ckb-duktape-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "rebuild-schema": "moleculec --language - --format json --schema-file ./schema/blockchain.mol > ./schema/blockchain.json && moleculec-es -inputFile ./schema/blockchain.json -outputFile ./schema/blockchain.js"
+  },
+  "author": "Xuejie Xiao",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "rollup": "^1.32.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "language": "c",
+  "main": "simple_udt.c",
+  "output": "",
+  "scripts": {
+    "build": ""
+  },
+  "debug": {
+    "target": "tx.outputs[0].type"
+  }
+}

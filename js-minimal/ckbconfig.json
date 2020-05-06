@@ -1,0 +1,13 @@
+{
+  "language": "javascript",
+  "main": "index.js",
+  "output": "",
+  "scripts": {
+    "build": "echo 'no need to build'"
+  },
+  "debug": {
+    "mock": "",
+    "target": "tx.outputs[0].type",
+    "cycles": ""
+  }
+}
