@@ -139,10 +139,14 @@ export class Uint64 {
   }
 
   toBigEndianBigUint64() {
+    CKB.debug(`warning: Duktape does not support uint64 and BigInt`)
+    return this.view.getUint32(4, false);
     return this.view.getBigUint64(0, false);
   }
 
   toLittleEndianBigUint64() {
+    CKB.debug(`warning: Duktape does not support uint64 and BigInt`)
+    return this.view.getUint32(0, true);
     return this.view.getBigUint64(0, true);
   }
 
