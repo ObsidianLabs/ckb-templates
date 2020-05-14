@@ -207,7 +207,7 @@ export class HtlcArgs {
   }
 
   validate(compatible = false) {
-    assertDataLength(this.view.byteLength, 68);
+    assertDataLength(this.view.byteLength, HtlcArgs.size());
     this.getA().validate(compatible);
     this.getB().validate(compatible);
     this.getHash().validate(compatible);
