@@ -1,6 +1,9 @@
 {
   "language": "other",
   "main": "build.sh",
+  "compilers": {
+    "riscv": "xenial-20191209"
+  },
   "output": "",
   "scripts": {
     "build": "./build.sh"

@@ -1,6 +1,9 @@
 {
   "language": "c",
   "main": "simple_udt.c",
+  "compilers": {
+    "riscv": "xenial-20191209"
+  },
   "output": "",
   "scripts": {
     "build": ""

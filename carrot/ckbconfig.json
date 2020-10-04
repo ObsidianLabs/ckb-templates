@@ -1,6 +1,9 @@
 {
   "language": "c",
   "main": "#name.c",
+  "compilers": {
+    "riscv": "xenial-20191209"
+  },
   "output": "",
   "scripts": {
     "build": ""
